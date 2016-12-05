@@ -24,7 +24,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 ]]--
 
-local _PACKAGE = (...):match("^(.+)%.[^%.]+")
+local _PACKAGE = ''
 local vector  = require(_PACKAGE .. '.vector-light')
 local huge, abs = math.huge, math.abs
 

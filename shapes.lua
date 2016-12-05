@@ -26,7 +26,7 @@ THE SOFTWARE.
 
 local math_min, math_sqrt, math_huge = math.min, math.sqrt, math.huge
 
-local _PACKAGE, common_local = (...):match("^(.+)%.[^%.]+"), common
+local _PACKAGE, common_local = '', common
 if not (type(common) == 'table' and common.class and common.instance) then
 	assert(common_class ~= false, 'No class commons specification available.')
 	require(_PACKAGE .. '.class')
